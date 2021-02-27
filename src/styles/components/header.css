@@ -1,21 +1,49 @@
 .header {
 
     &__top {
-
+        padding: 15px 0;
+        box-shadow: 0px 2px 4px #ccc;
     }
-
     &__top-links {
         margin: 0;
         padding: 0;
         list-style: none;
         display: flex;
+        justify-content: flex-end;
+    }
+    &__top-link {
+        margin-right: 15px;
+        font-size: 14px
+    ;
+        &--phone {
+            margin-right: auto;
 
-        li {
-            margin-right: 15px;
+            a {
+                position: relative;
+                padding-left: 20px;
+                text-decoration: none;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 50%;
+                    margin-top: -6px;
+                    left: 0;
+                    width: 12px;
+                    height: 12px;
+                    background-image: url("../images/call.svg");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+            }
         }
 
-        a {
-            font-size: 14px;
+        &:last-child {
+            margin-right: 0;
+        }
+
+        a:hover {
+            text-decoration: none;
         }
     }
 }
