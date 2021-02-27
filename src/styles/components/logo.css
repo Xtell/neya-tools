@@ -8,7 +8,7 @@
         font-size: 80px;
         font-weight: bold;
         margin-right: 50px;
-        color: #ffb83f;
+        color: var(--primaryColor);
     }
 
     &__tagline {

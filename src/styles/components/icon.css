@@ -1,0 +1,6 @@
+.icon {
+
+    &--primary-color {
+        fill: var(--primaryColor);
+    }
+}

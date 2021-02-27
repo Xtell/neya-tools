@@ -16,6 +16,10 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-end;
+
+        @media (width < 520px) {
+            justify-content: center;
+        }
     }
 
     &__top-link {
@@ -24,29 +28,16 @@
 
         &--phone {
             margin-right: auto;
-
+            @media (width < 520px) {
+                width: 100%;
+                order: 3;
+                margin-top: 10px;
+            }
             a {
                 position: relative;
                 padding-left: 20px;
                 text-decoration: none;
                 transition: opacity 0.4s;
-
-                &:hover {
-                    opacity: 0.7;
-                }
-
-                &::before {
-                    content: "";
-                    position: absolute;
-                    top: 50%;
-                    margin-top: -6px;
-                    left: 0;
-                    width: 12px;
-                    height: 12px;
-                    background-image: url("../images/call.svg");
-                    background-repeat: no-repeat;
-                    background-position: center;
-                }
             }
         }
 
@@ -62,5 +53,16 @@
     /* Header middle */
     &__middle {
         padding: 15px 0;
+    }
+
+    &__bottom {
+        position: relative;
+        padding: 15px 0;
+        background-color: var(--light-gray);
+    }
+
+    &__navbar {
+        position: absolute;
+        top: 5px;
     }
 }

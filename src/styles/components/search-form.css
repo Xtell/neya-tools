@@ -1,0 +1,15 @@
+.search-form {
+    .input-group {
+        display: flex;
+    }
+    .form-control {
+        height: 35px;
+    }
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 35px;
+        color: var(--white);
+    }
+}

@@ -1,0 +1,18 @@
+.link {
+    color: var(--black);
+    font-weight: 600;
+    transition: color 0.4s;
+
+    &:hover {
+        color: var(--primaryColor);
+    }
+
+    &--with-icon {
+        display: flex;
+        align-items: center;
+    }
+    &__icon {
+        color: var(--primaryColor);
+        margin-right: 5px;
+    }
+}

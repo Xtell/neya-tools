@@ -100,9 +100,15 @@ exports.images = images;
 
 /* Sprite */
 const sprite = () => {
-    return gulp.src('src/icons/*.svg')
-        .pipe(svgSprite())
-        .pipe(gulp.dest('dist/icons.svg'))
+    return gulp.src('src/icons/*.*')
+        .pipe(svgSprite({
+            mode: {
+                stack: {
+                    sprite: "../sprite.svg"
+                }
+            },
+        }))
+        .pipe(gulp.dest('dist'))
 }
 exports.sprite = sprite;
 

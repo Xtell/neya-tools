@@ -1,7 +1,13 @@
 :root {
     --gray: #cccccc;
-    --yellow: #FFB83F;
+    --gray2: #5f5f5f;
+    --light-gray: #d7d9da;
+    --yellow: #ffb83f;
     --blue: #132580;
+    --black: #000000;
+    --black2: #262626;
+    --dark: #383838;
+    --white: #ffffff;
 
     --primaryColor: var(--yellow);
     --secondaryColor: var(--blue);
