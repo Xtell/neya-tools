@@ -1,20 +1,27 @@
+/* Header */
+
 .header {
+
+    /* Header top */
 
     &__top {
         padding: 15px 0;
         box-shadow: 0px 2px 4px #ccc;
     }
+
     &__top-links {
         margin: 0;
         padding: 0;
         list-style: none;
         display: flex;
+        flex-wrap: wrap;
         justify-content: flex-end;
     }
+
     &__top-link {
         margin-right: 15px;
-        font-size: 14px
-    ;
+        font-size: 14px;
+
         &--phone {
             margin-right: auto;
 
@@ -22,6 +29,11 @@
                 position: relative;
                 padding-left: 20px;
                 text-decoration: none;
+                transition: opacity 0.4s;
+
+                &:hover {
+                    opacity: 0.7;
+                }
 
                 &::before {
                     content: "";
@@ -45,5 +57,10 @@
         a:hover {
             text-decoration: none;
         }
+    }
+
+    /* Header middle */
+    &__middle {
+        padding: 15px 0;
     }
 }

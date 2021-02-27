@@ -1,3 +1,8 @@
 :root {
     --gray: #cccccc;
+    --yellow: #FFB83F;
+    --blue: #132580;
+
+    --primaryColor: var(--yellow);
+    --secondaryColor: var(--blue);
 }

@@ -5,4 +5,6 @@
 
 /* Components */
 
+@import "components/logo.css";
+@import "components/user-actions.css";
 @import "components/header.css";
