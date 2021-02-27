@@ -1,0 +1,7 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import './fonts.css';
+@import './config.css';
+
+/* Components */
+
+@import "./components/header.css";

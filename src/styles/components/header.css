@@ -1,0 +1,21 @@
+.header {
+
+    &__top {
+
+    }
+
+    &__top-links {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+
+        li {
+            margin-right: 15px;
+        }
+
+        a {
+            font-size: 14px;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "template_postcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.8",
+    "autoprefixer": "^10.2.4",
+    "bootstrap": "^5.0.0-beta2",
+    "browser-sync": "^2.26.14",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-terser": "^2.0.1",
+    "postcss-csso": "^5.0.0",
+    "postcss-import": "^14.0.0",
+    "postcss-media-minmax": "^5.0.0",
+    "swiper": "^6.4.15"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "dependencies": {
+    "postcss-nested": "^5.0.4"
+  }
+}
