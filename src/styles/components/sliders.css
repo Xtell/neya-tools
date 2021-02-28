@@ -1,0 +1,43 @@
+
+.splide {
+    padding-bottom: 40px;
+}
+.splide__pagination {
+    bottom: 0px;
+    li {
+        &:not(:last-child) {
+            margin-right: 10px;
+        }
+    }
+    &__page {
+        width: 10px;
+        height: 10px;
+
+        &.is-active {
+            background-color: var(--dark);
+        }
+    }
+}
+/* Main slider */
+.main-slider {
+    margin-bottom: 40px;
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
+}
+ /* Partners slider  */
+.partners-slider {
+
+    .splide__slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .splide__arrow--prev {
+        left: -2em;
+    }
+    .splide__arrow--next {
+        right: -2em;
+    }
+}

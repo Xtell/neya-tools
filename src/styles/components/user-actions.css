@@ -1,12 +1,7 @@
 /* User actions */
 
 .user-actions {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    &__item {
-        margin-bottom: 5px;
-    }
+
     &__link {
         position: relative;
         padding-left: 20px;

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" class="page">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,226 +9,350 @@
 <body>
 <header class="header">
   <div class="header__top">
-    <div class="container">
+    <div class="container header__top-wrap">
+
       <ul class="header__top-links">
-        <li class="header__top-link header__top-link--phone">
-          <a href="tel:+79026187052" class=" link link--with-icon">
-            <svg class="icon icon--primary-color link__icon" width="12" height="12">
-              <use xlink:href="sprite.svg#telephone-fill"/>
-            </svg>
-            +7 (902) 618 70 52
-          </a>
-        </li>
         <li class="header__top-link"><a href="" class="link ">О нас</a></li>
         <li class="header__top-link"><a href="" class="link ">Партнеры</a></li>
         <li class="header__top-link"><a href="" class="link ">Соглашение</a></li>
         <li class="header__top-link"><a href="" class="link ">Контакты</a></li>
       </ul>
-    </div>
-  </div>
-  <div class="header__middle">
-    <div class="container">
-      <div class="row align-items-center justify-content-between">
-        <div class="col-md-6">
-          <div class="header__logo logo">
-            <div class="logo__img">НЕЯ</div>
-            <span class="logo__tagline">Механизированный инструмент и силовое оборудование</span>
-          </div>
-        </div>
-        <div class="col-md-6 d-flex justify-content-end">
-          <ul class="header__actions user-actions">
-            <li class="user-actions__item">
-              <a href="#" class="user-actions__link user-actions__link--login link link--with-icon">
-                <svg class="icon icon--primary-color link__icon" width="16" height="16">
-                  <use xlink:href="sprite.svg#person-fill"/>
-                </svg>
-                Вход / Регистрация</a>
-            </li>
-            <li style="display: none" class="user-actions__item">
-              <a href="#" class="user-actions__link user-actions__link--lk link--with-icon">Личный кабинет</a>
-            </li>
-          </ul>
-        </div>
+
+      <div class="header__actions user-actions">
+        <a href="#" class="user-actions__link user-actions__link--login link link--with-icon">
+          <svg class="icon icon--primary-color link__icon" width="16" height="16">
+            <use xlink:href="sprite.svg#person-fill"/>
+          </svg>
+          Вход / Регистрация</a>
+
+        <a href="#" class="user-actions__link user-actions__link--lk link--with-icon" style="display: none">Личный
+          кабинет</a>
       </div>
     </div>
   </div>
+
+  <div class="header__middle">
+    <div class="container header__top-wrap">
+
+      <div class="header__logo logo">
+        <div class="logo__img">НЕЯ</div>
+      </div>
+
+      <p class="header__working-time">
+        <span>10:00 – 19:00 (по рабочим дням)</span>
+        <span>10:00 – 18:00 (выходные, праздники)</span>
+      </p>
+      <p class="header__phone">
+        <a href="tel:+79026187052" class="header__phone-link link link--with-icon">
+          <svg class="icon icon--primary-color link__icon" width="15" height="15">
+            <use xlink:href="sprite.svg#telephone-fill"/>
+          </svg>
+          +7 (902) 618 70 52
+        </a>
+        <a href="" class="header__phone-callback">Заказать обратный звонок</a>
+      </p>
+
+
+    </div>
+  </div>
+
   <div class="header__bottom">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-3">
-          <nav class="header__navbar menu ">
-            <a href="" class="menu__title">Каталог товаров</a>
-            <ul class="menu__list">
-              <li class="menu__item dropdown dropend">
-                <a href="" class="menu__link" data-bs-toggle="dropdown" aria-expanded="false">
-                  Бренд
-                <svg width="8" height="8" class="menu__link-icon">
-                  <use href="sprite.svg#arrow-right"></use>
-                </svg>
-                </a>
-                <ul class="dropdown-menu menu__list menu__list--lvl2">
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-
-                </ul>
-              </li>
-              <li class="menu__item dropdown dropend">
-                <a href="" class="menu__link" data-bs-toggle="dropdown" aria-expanded="false">Бренд</a>
-
-                <ul class="dropdown-menu menu__list menu__list--lvl2">
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-
-                </ul>
-              </li>
-              <li class="menu__item dropdown dropend">
-                <a href="" class="menu__link" data-bs-toggle="dropdown" aria-expanded="false">Бренд</a>
-                <ul class="dropdown-menu menu__list menu__list--lvl2">
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-
-                </ul>
-              </li>
-              <li class="menu__item dropdown dropend">
-                <a href="" class="menu__link" data-bs-toggle="dropdown" aria-expanded="false">Бренд</a>
-                <ul class="dropdown-menu menu__list menu__list--lvl2">
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-
-                </ul>
-              </li>
-              <li class="menu__item dropdown dropend">
-                <a href="" class="menu__link" data-bs-toggle="dropdown" aria-expanded="false">Бренд</a>
-                <ul class="dropdown-menu menu__list menu__list--lvl2">
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-
-                </ul>
-              </li>
-              <li class="menu__item dropdown dropend">
-                <a href="" class="menu__link" data-bs-toggle="dropdown" aria-expanded="false">Бренд</a>
-                <ul class="dropdown-menu menu__list menu__list--lvl2">
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-
-                </ul>
-              </li>
-              <li class="menu__item dropdown dropend">
-                <a href="" class="menu__link" data-bs-toggle="dropdown" aria-expanded="false">Бренд</a>
-                <ul class="dropdown-menu menu__list menu__list--lvl2">
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-
-                </ul>
-              </li>
-              <li class="menu__item dropdown dropend">
-                <a href="" class="menu__link" data-bs-toggle="dropdown" aria-expanded="false">Бренд</a>
-                <ul class="dropdown-menu menu__list menu__list--lvl2">
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-
-                </ul>
-              </li>
-              <li class="menu__item dropdown dropend">
-                <a href="" class="menu__link" data-bs-toggle="dropdown" aria-expanded="false">Бренд</a>
-                <ul class="dropdown-menu menu__list menu__list--lvl2">
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-
-                </ul>
-              </li>
-              <li class="menu__item dropdown dropend">
-                <a href="" class="menu__link" data-bs-toggle="dropdown" aria-expanded="false">Бренд</a>
-                <ul class="dropdown-menu menu__list menu__list--lvl2">
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-
-                </ul>
-              </li>
-              <li class="menu__item dropdown dropend">
-                <a href="" class="menu__link" data-bs-toggle="dropdown" aria-expanded="false">Бренд</a>
-                <ul class="dropdown-menu menu__list menu__list--lvl2">
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-
-                </ul>
-              </li>
-              <li class="menu__item dropdown dropend">
-                <a href="" class="menu__link" data-bs-toggle="dropdown" aria-expanded="false">Бренд</a>
-                <ul class="dropdown-menu menu__list menu__list--lvl2">
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-                  <li class="menu__item"><a class="menu__link" href="#">Товар</a></li>
-
-                </ul>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <div class="col-md-6">
-          <div class=" header__search">
-            <form action="" class="search-form">
-              <div class="input-group">
-                <input type="text" class="form-control" placeholder="Поиск" aria-label="Поиск"
-                       aria-describedby="button-addon2">
-                <button class="btn  btn-dark" type="button" id="button-addon2">
-                  <svg width="15" height="15">
-                    <use href="sprite.svg#search"></use>
-                  </svg>
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="col-md-3 d-flex justify-content-end">
-          <div class="header__cart">
-            <a href="" class="header__card-link link link--with-icon">
-              <svg class="link__icon" width="20" height="20">
-                <use href="sprite.svg#cart"></use>
+    <div class="container header__bottom-wrap">
+      <a href="" class="header__promotion link link--with-icon">
+        <svg width="15" height="15" class="link__icon">
+          <use href="sprite.svg#percent"></use>
+        </svg>
+        Акции</a>
+      <div class="header__search">
+        <form action="" class="form form--search">
+          <div class="form__row">
+            <input type="text" class="input form__input" placeholder="Поиск" aria-label="Поиск"
+                   aria-describedby="button-addon2">
+            <button class="btn btn-dark form__submit" type="submit">
+              <svg width="15" height="15">
+                <use href="sprite.svg#search"></use>
               </svg>
-              Корзина
-            </a>
+            </button>
           </div>
-        </div>
+        </form>
+      </div>
+      <div class="header__cart">
+        <a href="" class="header__card-link link link--with-icon">
+          <svg class="link__icon" width="20" height="20">
+            <use href="sprite.svg#cart"></use>
+          </svg>
+          Корзина
+        </a>
       </div>
     </div>
   </div>
 </header>
+
+<main class="page__main ">
+  <div class="container">
+    <div class="page__main-wrap">
+      <div class="page__main-sidebar">
+        <nav class="header__navbar menu ">
+          <a href="" class="menu__title">
+            <svg width="30" height="30">
+              <use href="sprite.svg#burger"></use>
+            </svg>
+            Каталог товаров</a>
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="" class="menu__link">Status</a>
+              <ul class="menu__list menu__list--lvl2">
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+              </ul>
+            </li>
+            <li class="menu__item">
+              <a href="" class="menu__link">Диолд</a>
+              <ul class="menu__list menu__list--lvl2">
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+              </ul>
+            </li>
+            <li class="menu__item">
+              <a href="" class="menu__link">Диолд</a>
+              <ul class="menu__list menu__list--lvl2">
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+              </ul>
+            </li>
+            <li class="menu__item">
+              <a href="" class="menu__link">Диолд</a>
+              <ul class="menu__list menu__list--lvl2">
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+              </ul>
+            </li>
+            <li class="menu__item">
+              <a href="" class="menu__link">Диолд</a>
+              <ul class="menu__list menu__list--lvl2">
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+              </ul>
+            </li>
+            <li class="menu__item">
+              <a href="" class="menu__link">Диолд</a>
+              <ul class="menu__list menu__list--lvl2">
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+              </ul>
+            </li>
+            <li class="menu__item">
+              <a href="" class="menu__link">Диолд</a>
+              <ul class="menu__list menu__list--lvl2">
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+              </ul>
+            </li>
+            <li class="menu__item">
+              <a href="" class="menu__link">Диолд</a>
+              <ul class="menu__list menu__list--lvl2">
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+                <li class="menu__item"><a href="" class="menu__link">Дрели и шуруповерты</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+
+      </div>
+      <div class="page__main-content main-content">
+        <h1 class="visually-hidden">НЕЯ - Магазин механизированного инструмента и силового оборудования</h1>
+        <p class="main-content__tagline">Механизированный инструмент и силовое оборудование</p>
+        <div class="main-slider splide">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <img src="images/main-slider-1.jpg" alt="">
+              </li>
+              <li class="splide__slide"><img src="images/main-slider-1.jpg" alt=""></li>
+              <li class="splide__slide"><img src="images/main-slider-1.jpg" alt=""></li>
+            </ul>
+          </div>
+        </div>
+        <section class="main-content__section section">
+          <h2 class="section__title">Хиты продаж</h2>
+          <div class="catalog">
+            <ul class="catalog__list">
+              <li class="catalog__item">
+                <article class="product-cart">
+                  <a href="" class="product-cart__title">
+                    <h3>Дрель D-380 STATUS</h3>
+                  </a>
+                  <img src="images/product.jpg" alt="Дрель D-380 STATUS" class="product-cart__img">
+                  <p class="product-cart__price price">
+                    <del class="price__old">2475 руб</del>
+                    <span class="price__new">2000 руб</span>
+                  </p>
+                  <a href="" class="product-cart__btn">В корзину</a>
+                </article>
+              </li>
+              <li class="catalog__item">
+                <article class="product-cart">
+                  <a href="" class="product-cart__title">
+                    <h3>Дрель D-380 STATUS</h3>
+                  </a>
+                  <img src="images/product.jpg" alt="Дрель D-380 STATUS" class="product-cart__img">
+                  <p class="product-cart__price price">
+                    <del class="price__old">2475 руб</del>
+                    <span class="price__new">2000 руб</span>
+                  </p>
+                  <a href="" class="product-cart__btn">В корзину</a>
+                </article>
+              </li>
+              <li class="catalog__item">
+                <article class="product-cart">
+                  <a href="" class="product-cart__title">
+                    <h3>Дрель D-380 STATUS</h3>
+                  </a>
+                  <img src="images/product.jpg" alt="Дрель D-380 STATUS" class="product-cart__img">
+                  <p class="product-cart__price price">
+                    <del class="price__old">2475 руб</del>
+                    <span class="price__new">2000 руб</span>
+                  </p>
+                  <a href="" class="product-cart__btn">В корзину</a>
+                </article>
+              </li>
+              <li class="catalog__item">
+                <article class="product-cart">
+                  <a href="" class="product-cart__title">
+                    <h3>Дрель D-380 STATUS</h3>
+                  </a>
+                  <img src="images/product.jpg" alt="Дрель D-380 STATUS" class="product-cart__img">
+                  <p class="product-cart__price price">
+                    <del class="price__old">2475 руб</del>
+                    <span class="price__new">2000 руб</span>
+                  </p>
+                  <a href="" class="product-cart__btn">В корзину</a>
+                </article>
+              </li>
+              <li class="catalog__item">
+                <article class="product-cart">
+                  <a href="" class="product-cart__title">
+                    <h3>Дрель D-380 STATUS</h3>
+                  </a>
+                  <img src="images/product.jpg" alt="Дрель D-380 STATUS" class="product-cart__img">
+                  <p class="product-cart__price price">
+                    <del class="price__old">2475 руб</del>
+                    <span class="price__new">2000 руб</span>
+                  </p>
+                  <a href="" class="product-cart__btn">В корзину</a>
+                </article>
+              </li>
+              <li class="catalog__item">
+                <article class="product-cart">
+                  <a href="" class="product-cart__title">
+                    <h3>Дрель D-380 STATUS</h3>
+                  </a>
+                  <img src="images/product.jpg" alt="Дрель D-380 STATUS" class="product-cart__img">
+                  <p class="product-cart__price price">
+                    <del class="price__old">2475 руб</del>
+                    <span class="price__new">2000 руб</span>
+                  </p>
+                  <a href="" class="product-cart__btn">В корзину</a>
+                </article>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="main-content__section section">
+          <h2 class="section__title">Мы рекомендуем</h2>
+          <div class="partners-slider splide">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <img src="images/diold.png" alt="" width="228" height="82">
+                </li>
+                <li class="splide__slide"><img src="images/champion.svg" width="228" height="82" alt=""></li>
+                <li class="splide__slide"><img src="images/rebir.png" width="181" height="58" alt=""></li>
+                <li class="splide__slide"><img src="images/champion.svg" width="228" height="82" alt=""></li>
+                <li class="splide__slide">
+                  <img src="images/diold.png" alt="" width="228" height="82">
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="main-content__section section">
+          <h2 class="section__title">
+            Мы предлагаем
+          </h2>
+          <div class="abilities">
+            <ul class="abilities__list">
+              <li class="abilities__item">
+                <svg class="abilities__icon" width="50" height="50">
+                  <use href="sprite.svg#warehouse"></use>
+                </svg>
+                <p class="abilities__text">
+                  продажа товара со склада в г. Челябинске из наличия и под заказ
+                </p>
+              </li>
+              <li class="abilities__item">
+                <svg class="abilities__icon" width="50" height="50">
+                  <use href="sprite.svg#delivery"></use>
+                </svg>
+                <p class="abilities__text">
+                  доставка крупногабаритного оборудования в черте г. Челябинска  бесплатно
+                </p>
+              </li>
+              <li class="abilities__item">
+                <svg class="abilities__icon" width="50" height="50">
+                  <use href="sprite.svg#24-hours"></use>
+                </svg>
+                <p class="abilities__text">
+                  гарантийный ремонт нашей техники, как правило, в течение суток;
+                </p>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</main>
 <script src="scripts/index.min.js"></script>
 </body>
 </html>

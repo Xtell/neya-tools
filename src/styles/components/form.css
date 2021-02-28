@@ -1,0 +1,28 @@
+/* Form */
+
+.form {
+
+
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &--search {
+        .form__row {
+            flex-wrap: nowrap;
+        }
+        .form__submit {
+            width: 40px;
+            height: 40px;
+            border-radius: 0;
+            border-top-right-radius: 3px;
+            border-bottom-right-radius: 3px;
+
+        }
+        .form__input {
+            border-right: 0;
+        }
+    }
+
+}

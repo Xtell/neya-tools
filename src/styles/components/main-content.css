@@ -1,0 +1,11 @@
+.main-content {
+    &__tagline  {
+        margin: 0;
+        margin-bottom: 20px;
+        font-size: 26px;
+        font-weight: 600;
+    }
+    &__section {
+        margin-bottom: 40px;
+    }
+}

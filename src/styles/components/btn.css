@@ -1,6 +1,13 @@
-.btn {
+/* buttons */
 
+.btn {
+    display: block;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    border-radius: 2px;
     &-dark {
         background-color: var(--gray2);
+        color: var(--white);
     }
 }

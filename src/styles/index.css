@@ -1,16 +1,24 @@
-@import 'bootstrap/dist/css/bootstrap.min.css';
-@import 'bootstrap-icons/font/bootstrap-icons.css';
-
+@import '@splidejs/splide/dist/css/splide.min.css';
 @import 'variables.css';
 @import 'fonts.css';
 @import 'config.css';
 
 /* Components */
+@import 'components/input.css';
+@import "components/sliders.css";
 @import 'components/btn.css';
 @import 'components/icon.css';
 @import 'components/link.css';
 @import "components/logo.css";
 @import "components/user-actions.css";
 @import "components/menu.css";
-@import "components/search-form.css";
+@import "components/form.css";
+@import "components/abilities.css";
+@import "components/page.css";
 @import "components/header.css";
+@import "components/catalog.css";
+@import "components/product-cart.css";
+@import "components/price.css";
+
+@import "components/main-content.css";
+

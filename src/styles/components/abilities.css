@@ -1,0 +1,27 @@
+.abilities {
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 320px;
+        &:not(:last-child) {
+            margin-right: 15px;
+        }
+    }
+    &__text {
+        margin: 0;
+        font-size: 16px;
+    }
+    &__icon {
+        color: var(--primaryColor);
+        fill: var(--primaryColor);
+        margin-bottom: 20px;
+    }
+}

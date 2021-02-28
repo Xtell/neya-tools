@@ -1,0 +1,12 @@
+.price {
+    font-weight: bold;
+    font-size: 18px;
+
+    &__old {
+        margin-right: 5px;
+        font-size: 16px;
+    }
+    &__new {
+        color: var(--primaryColor)
+    }
+}

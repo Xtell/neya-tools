@@ -11,7 +11,7 @@ const newer = require('gulp-newer');
 const imagemin = require('gulp-imagemin');
 const svgSprite = require('gulp-svg-sprite');
 
-const libsJs = ['node_modules/swiper/swiper-bundle.min.js', 'node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'];
+const libsJs = ['node_modules/@splidejs/splide/dist/js/splide.min.js'];
 
 const JPEG_QUALITY = 90;
 const WEBP_QUALITY = 90;
@@ -48,6 +48,7 @@ const styles = () => {
             postcss([
                 require('postcss-import'),
                 require('postcss-nested'),
+                require('postcss-color-mod-function'),
                 require('postcss-media-minmax'),
                 require('autoprefixer'),
             ]),
